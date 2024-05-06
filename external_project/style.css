@@ -1,0 +1,77 @@
+    /*Importing Google font-Playfair*/
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Playfair', sans-serif;
+}
+
+body{
+    height: 30vh;
+    background:url(images/Healthy\ Cherry\ Almond\ Oatmeal\ Smoothie.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.navbar img{
+    flex-direction: row-reverse;
+    
+}
+.menu-links{
+    display: flex;
+    justify-content:space-evenly;
+}
+.Home{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.Home .content{
+
+    max-width: 40rem;
+}
+
+.Home .content h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.Home .content p{
+    padding: 1rem;
+    color: rgb(255,255, 255);
+}
+
+.About{
+    align-items: center;
+    flex-wrap: wrap;
+}
+.About .image{
+    flex: 1 1 45rem;
+}
+
+
+footer p{
+    font-size: 1rem;
+    color: #fff;
+    background-color: purple;
+    font-weight: lighter;
+    padding: 1.5rem;
+}
+
+
+@media(max-width:768px){
+    .menu-links{
+        position: absolute;
+        top: 100%; right: -100%;
+        background-color: #fff;
+        width: 30rem;
+
+    }
+}
